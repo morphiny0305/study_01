@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자입력과 슬라이드막대</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>등록정보</legend>
+            <p>
+                <label for="">참여인원 <small>(최대10명)</small></label>
+                <input type="number" value="1" min="0" max="10" step="1">
+            </p>
+            <p>
+                <label for="">지원물품 <small>(1인당 최대5개)</small></label>
+                <input type="number" value="1" min="0" max="5" step="1">
+            </p>
+            <p>
+                <label for="">희망단계 <small>(하,중,상)</small></label>
+                <input type="range" value="0" min="0" max="3" step="1">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

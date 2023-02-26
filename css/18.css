@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#box1{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+#box1 td{
+    border: 2px solid red;
+}
+
+#box2{
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 600px;
+}
+th{border: 1px solid red;}
+td{border: 1px solid red;}

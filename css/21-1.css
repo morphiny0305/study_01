@@ -1,0 +1,13 @@
+@charset "utf-8";
+table{border: 2px solid black;
+    border-collapse: collapse;
+width: 450px;
+height: 300px;
+}
+th{border: 1px solid black;}
+td{border: 1px solid black;
+text-align: center;}
+#title{background-color: lightgray;}
+#rr{background-color: darkturquoise;}
+#ee{background-color: beige;}
+#money{background-color: chartreuse;}

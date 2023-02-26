@@ -1,0 +1,12 @@
+@charset "utf-8";
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}
+td{border: 1px solid red}
+
+.pinkbg{background-color: pink;}
+.yellowbg{background-color: yellow;}
+.greenbg{background-color: green;}
